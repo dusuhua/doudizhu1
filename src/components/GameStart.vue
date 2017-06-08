@@ -1,11 +1,13 @@
 <template>
 	<div>
 		<el-row style="margin-bottom: 18px">
-			<el-col :span='24' style='text-align: center'>欢迎来斗地主</el-col>
+			<el-col :span='6' style='text-align: center'>&nbsp;</el-col>
+			<el-col :span='12' style='text-align: center'>欢迎来斗地主</el-col>
+			<el-col :span='6' style='text-align: center'>&nbsp;</el-col>
 		</el-row>
 		<el-row>
-			<el-col :span="4">&nbsp;</el-col>
-			<el-col :span="16" style='align-content: center;border:1px solid #99a9bf;padding: 21px;'>
+			<el-col :span="6">&nbsp;</el-col>
+			<el-col :span="12" style='align-content: center;border:1px solid #99a9bf;padding: 21px;'>
 				<el-form ref="form" name='loginForm'>
 					<el-form-item style='text-align: center;margin:0px;'>
 						登陆
@@ -22,7 +24,7 @@
 				  </el-form-item>
 				</el-form>
 			</el-col>
-			<el-col :span="4">&nbsp;</el-col>
+			<el-col :span="6">&nbsp;</el-col>
 		</el-row>
 	</div>
 </template>
