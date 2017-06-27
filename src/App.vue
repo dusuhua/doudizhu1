@@ -22,6 +22,4 @@ export default {
   color: #2c3e50;
   margin-top: 3px;
 }
-html{height:100%;}
-body{height:100%;}
 </style>

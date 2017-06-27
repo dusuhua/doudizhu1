@@ -16,7 +16,8 @@ export function zhuce(form,thisa){
 
 export function login(form,thisa){
 		axPost('/api/users/login',$(form).serialize(),function(res){
-				if(res.data==1){
+				if(res.data!=0){
+					userStore.commit('login',res.data);
 					thisa.$router.push('/gamehill');
 					return;
 				}else{
